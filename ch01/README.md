@@ -80,3 +80,19 @@ DOM3级(DOM Level 3):
 - DOM核心开始支持XML 1.0规范。
 
 ## 1.2.3 浏览器对象模型(BOM)
+
+IE3 和 Netscape Navigator 3有一个共同的特色，那就是支持可以访问和操作浏览器窗口的浏览器对象模型(BOM, Browser Object Model)。
+
+BOM只处理浏览器窗口和框架。
+
+针对浏览器的拓展:
+ - window对象（弹出新浏览器窗口的功能 + 移动、缩放和关闭浏览器窗口的功能）
+ - navigator对象（提供浏览器详细信息）
+ - location对象（提供浏览器所加载页面的详细信息）
+ - screen对象（提供用户显示器分辨率详细信息）
+ - 对cookies的支持
+ - 像XMLHttpRequest和IE的ActiveXObject这样的自定义对象
+
+## 1.4 小结
+
+JavaScript是一种专为与网页交互而设计的脚本语言（ECMAScript、DOM、BOM）
